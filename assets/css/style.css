@@ -53,7 +53,16 @@ header {
 
 
 main {
+img{
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+}
+    i{
+        position: absolute
+        top 50%;
+        left: 50%;
 
-    
+    }
 
 }
