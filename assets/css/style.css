@@ -6,18 +6,23 @@
 
 :root {
     --dis-primary-color: #ff6900;
-    --dis-primary-dark: #fff9f6;
-    --dis-button-B: #1a1a1a;
-    --dis-button-C: #008000;
-    --dis-light: #ff0000;
+    --dis-primary-light: #fff9f6;
+    --dis-primary-dark: #1a1a1a;
+    --dis-sostenibity: #008000;
+    --dis-percentage: #ff0000;
 }
 
-d-flex {
+d-flex{
     display: flex;
 }
 
-
 .container {
-    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     margin: auto;
+    background-color: var(--dis-primary-color);
+
 }
+
+
