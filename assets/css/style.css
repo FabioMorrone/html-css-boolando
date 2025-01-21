@@ -12,17 +12,48 @@
     --dis-percentage: #ff0000;
 }
 
-d-flex{
-    display: flex;
-}
-
 .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    max-width: 100%;
     margin: auto;
-    background-color: var(--dis-primary-color);
+}
 
+d-flex {
+    display: flex;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--dis-primary-color);
+        padding: 1rem;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 0.5rem;
+
+    }
+
+    i {
+        color: var(--dis-primary-light);
+        padding: 0.25rem;
+    }
+
+    .img {
+        margin: 2rem;
+    }
 }
 
 
+main {
+
+    
+
+}
